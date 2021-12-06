@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+.body {
+  display: flex;
+}
+.card {
+  display: flex;
+  background: transparent;
+  padding: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+.container {
+  padding: 13rem;
+  display: flex;
+  justify-content: center;
+  background-image: url(country.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.input_card {
+  padding: 1rem;
+  border-radius: 8px;
+  outline: none;
+  border-color: cornflowerblue;
+  background: transparent;
+  margin-bottom: 10px;
+}
+.button_card {
+  padding: 0.75rem;
+  border: none;
+  width: 100px;
+  color: black;
+  border-radius: 8rem;
+}
+.button_card:hover {
+  background-color: rgb(14, 113, 179);
+}

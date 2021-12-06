@@ -1,0 +1,43 @@
+.button {
+  padding: 0.75rem;
+  background: transparent;
+  border-color: mintcream;
+  font-size: 25px;
+  color: rgb(22, 47, 78);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.modal {
+  position: absolute;
+  inset: 16px;
+  border: 1px solid rgb(204, 204, 204);
+  background-image: url(../../weather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  margin: 100px 0px 100px 390px;
+  width: 36%;
+  align-items: center;
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+}
+.values img {
+  height: 35px;
+  margin-top: 80px;
+}
+.values button {
+  background: rgb(180, 43, 27);
+  padding: 10px;
+  margin-top: 80px;
+  border: none;
+  border-radius: 5px;
+  width: 25%;
+}
